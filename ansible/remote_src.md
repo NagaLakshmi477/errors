@@ -8,5 +8,6 @@ PLAY RECAP *********************************************************************
 cart.lakshmireddy.site     : ok=7    changed=5    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
 
 SOLUTION:
-
+  # this module thinks file exists on ansible control server, need to extract on remote server
+  # here we are alraedy download the file on the remote server
 we need to give remote src is yes 
