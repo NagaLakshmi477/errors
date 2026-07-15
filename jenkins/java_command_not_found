@@ -1,0 +1,11 @@
+bash: line 1: java: command not found
+Agent JVM has terminated. Exit code=127
+[07/02/26 12:56:17] Launch failed - cleaning up connection
+[07/02/26 12:56:17] [SSH] Connection closed.
+
+Ans:
+we need to install java 
+login --> 
+sudo dnf install -y java-21-openjdk fontconfig
+
+we can relaunch 
